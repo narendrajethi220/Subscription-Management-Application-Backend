@@ -152,37 +152,57 @@ npm install
 
 Create a .env.local file in the root of your project and add the following:
 
+
 #### PORT
+
 PORT=5500
+
 SERVER_URL="http://localhost:5500"
 
+
 #### ENVIRONMENT
+
 NODE_ENV=development
 
+
 #### DATABASE
+
 DB_URI=
 
+
 #### JWT AUTH
+
 JWT_SECRET=
+
 JWT_EXPIRES_IN="1d"
 
+
 #### ARCJET
+
 ARCJET_KEY=
+
 ARCJET_ENV="development"
 
+
 #### UPSTASH
+
 QSTASH_URL=http://127.0.0.1:8080
+
 QSTASH_TOKEN=
 
+
 #### NODEMAILER
+
 EMAIL_PASSWORD=
+
 EMAIL_SERVICE=
+
 EMAIL_USER=
 
 #### Running the Project
 
 npm start
 
-####Open http://localhost:5500 in your browser or any HTTP client to test the API.
+#### Open `http://localhost:5500` in your browser or any HTTP client to test the API.
 
 Developed with ❤️ by Narendra Singh Jethi.
