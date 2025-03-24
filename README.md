@@ -123,3 +123,65 @@ Dummy JSON Data Example for Subscription
   "startDate": "2025-04-01T00:00:00.000Z",
   "user": "65fabc1234def567890abcd9"
 }`
+
+## 🤸 Quick Start
+
+Prerequisites
+
+Ensure you have the following installed:
+
+Git
+
+Node.js
+
+npm (Node Package Manager)
+
+Cloning the Repository
+
+`git@github.com:narendrajethi220/Subscription-Management-Application-Backend.git`
+cd Subscription-Management-Application-Backend
+
+### Installation
+
+Install the project dependencies:
+
+npm install
+
+### Set Up Environment Variables
+
+Create a .env.local file in the root of your project and add the following:
+
+#### PORT
+PORT=5500
+SERVER_URL="http://localhost:5500"
+
+#### ENVIRONMENT
+NODE_ENV=development
+
+#### DATABASE
+DB_URI=
+
+#### JWT AUTH
+JWT_SECRET=
+JWT_EXPIRES_IN="1d"
+
+#### ARCJET
+ARCJET_KEY=
+ARCJET_ENV="development"
+
+#### UPSTASH
+QSTASH_URL=http://127.0.0.1:8080
+QSTASH_TOKEN=
+
+#### NODEMAILER
+EMAIL_PASSWORD=
+EMAIL_SERVICE=
+EMAIL_USER=
+
+#### Running the Project
+
+npm start
+
+####Open http://localhost:5500 in your browser or any HTTP client to test the API.
+
+Developed with ❤️ by Narendra Singh Jethi.
